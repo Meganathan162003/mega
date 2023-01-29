@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(74, 239, 74);
+}
+h1{
+    text-align: center;
+}
+a{
+    color:black;
+    padding:px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+button{
+    margin-left: 670px;
+    margin-top: 150px;
+    padding: 30px;
+    border-radius:8px;
+    background: transparent;
+    box-shadow: 8px 5px 5px 8px;
+}
+a:hover{
+    color:rgb(21, 127, 7);
+   
+}

@@ -1,0 +1,95 @@
+body{
+width: 100%;
+background-image: url(bb.jpeg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: 100%;
+}
+ul{
+    width:100% ;
+    list-style-type:none;
+    display: inline;
+    display: flex;
+    background-color:transparent;
+    justify-content: end;
+    text-transform: capitalize;
+
+}
+.top li{
+     display: inline;
+     margin-right:100px;
+     font-weight: bolder;
+     animation: ok 2s ease;
+    }
+    @keyframes ok{
+        0%{
+            transform: translateY(-200%);
+        }
+    }
+.top li:hover{
+    font-size: 60px;
+    font-size: larger;
+
+}    
+a{
+    text-decoration: none;
+    color:black;
+}
+img{
+    width: 200px;
+    animation:img 4s ease-in-out;
+}
+@keyframes img{
+    0%{
+        transform: translateX(-100%);
+    }
+}
+h1{
+    margin:-140px 250px;
+    margin-right: -300px;
+    animation: kk 3s ease-in-out;
+}
+@keyframes kk{
+    0%{
+        transform:translatex(100%)
+    }
+}
+h1:hover{
+    text-shadow:2px 3px 2px rgb(232, 226, 223);
+
+}
+.combo{
+    margin-top:250px;
+    padding: 20px;
+    word-spacing: 30%;
+    text-transform: capitalize;
+    font-weight: 1000;
+    font-size: larger;
+    }
+    
+.two{
+    margin-top: -230px;
+    margin-left: 700px;
+    animation: mo 7s ease-in-out;
+ }
+    @keyframes mo {
+        0%{
+            transform: translateX(300%);
+        }
+    }
+.one{
+    margin-top:-20px;
+    margin-left:200px;
+    animation: oo 7s ease-in-out;
+    }
+    @keyframes oo {
+        0%{
+            transform: translateX(-300%);
+        }
+    }
+a:hover{
+    font-size: xx-large;
+}
+marquee{
+    margin-top:2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
